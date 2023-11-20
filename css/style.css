@@ -63,6 +63,11 @@ p {
     font-size: 1.4rem;
 }
 
+h2 {
+    padding: 30px;
+    font-size: 3rem;
+}
+
 /* Header */
 header {
     background: url(/img/jumbo.png) no-repeat center;
@@ -145,15 +150,15 @@ header {
 .large-column {
     flex-basis: 65%;
     margin: 50px auto;
-    background-color: skyblue;
-    border: 1px dashed black;
 }
 
 .small-column {
     flex-basis: 35%;
     margin: 50px auto;
-    background-color: pink;
-    border: 1px dashed black;
+}
+
+.small-column p {
+    padding: 0 30px;
 }
 
 .container-xl {
