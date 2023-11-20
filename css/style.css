@@ -68,6 +68,11 @@ h2 {
     font-size: 3rem;
 }
 
+h3 {
+    padding: 30px;
+    font-size: 1.7rem;
+}
+
 /* Header */
 header {
     background: url(/img/jumbo.png) no-repeat center;
@@ -162,11 +167,37 @@ header {
 }
 
 .container-xl {
-    background-color: green;
     min-height: 800px;
     max-width: 1200px;
     margin: auto;
-    border: 1px dashed black;
+    padding-bottom: 40px;
+}
+
+.container-art {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-art p {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-last {
+    text-align: center;
+    background: url(/img/stars.svg) no-repeat;
+    background-position: center top;
+}
+
+.container-last a {
+    background-color: #8ea1e1;
+    color: #fff;
 }
 
 /* Footer */
