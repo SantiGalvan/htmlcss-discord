@@ -32,8 +32,15 @@ a {
 
 .button {
     padding: 10px;
-    background-color: #fff;
     border-radius: 20px;
+}
+
+.btn-wh {
+    background-color: #fff;
+}
+
+.btn-bl {
+    background-color: #23272a;
 }
 
 /* Header */
@@ -52,9 +59,13 @@ header {
 
 .logo {
     flex-basis: 20%;
+}
+
+.logo-img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 100%;
 }
 
 
