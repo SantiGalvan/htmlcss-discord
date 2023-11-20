@@ -22,6 +22,19 @@ body {
     height: 600px;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
 
 /* Header */
 header {
@@ -33,24 +46,42 @@ header {
 .header-tp-container {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 50px;
-    background-color: goldenrod;
+    height: 50px;
     display: flex;
 }
 
 .logo {
     flex-basis: 20%;
-    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
 
 .link {
     flex-grow: 1;
-    border: 1px dashed black;
+}
+
+.link-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.link-list li>* {
+    color: #fff;
 }
 
 .btn {
     flex-basis: 20%;
-    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn a {
+    color: #23272a;
 }
 
 .header-btm {
