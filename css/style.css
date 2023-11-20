@@ -36,6 +36,11 @@ body {
     color: #fff;
 }
 
+.bpu {
+    background-color: #8ea1e1;
+    color: #fff;
+}
+
 
 /* Generals */
 .container {
@@ -198,15 +203,9 @@ header {
     background-position: center top;
 }
 
-.container-last a {
-    background-color: #8ea1e1;
-    color: #fff;
-}
-
 /* Footer */
 footer {
     background-color: #23272a;
-    min-height: 700px;
     margin: 0 auto;
 }
 
@@ -214,20 +213,18 @@ footer {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    height: 600px;
     border-bottom: 1px solid white;
 }
 
 /* Footer box small */
 .footer-box-small {
     flex-basis: 25%;
-    margin: 20px auto 50px;
+    margin: 20px auto;
 }
 
 .box-small-main {
     text-align: start;
     padding: 10px;
-    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -257,15 +254,27 @@ i {
 /* Footer box large */
 .footer-box-large {
     flex-basis: 75%;
-    margin: 20px auto 50px;
-    background-color: skyblue;
-    border: 1px dashed black;
+    margin: 20px auto;
     display: flex;
 }
 
 .box-large-column {
     flex-basis: 25%;
-    border: 1px dashed white;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-large-column>* {
+    padding: 10px;
+}
+
+.box-large-column a {
+    color: #fff;
+}
+
+h4 {
+    margin-top: 20px;
+    color: #8ea1e1;
 }
 
 /* Last footer */
@@ -274,15 +283,7 @@ i {
     max-width: 1200px;
     height: 100px;
     margin: 50px auto 0;
-    background-color: greenyellow;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.footer-cell {
-    height: 40px;
-    width: 80px;
-    background-color: gainsboro;
-    border: 1px dashed black;
 }
