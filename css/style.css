@@ -1,0 +1,155 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Utilitis */
+.pd50 {
+    padding: 50px;
+}
+
+/* Generals */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 600px;
+}
+
+
+/* Header */
+.header-tp {
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.header-tp-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 50px;
+    background-color: goldenrod;
+    display: flex;
+}
+
+.logo {
+    flex-basis: 20%;
+    border: 1px dashed black;
+}
+
+.link {
+    flex-basis: 60%;
+    border: 1px dashed black;
+}
+
+.log {
+    flex-basis: 20%;
+    border: 1px dashed black;
+}
+
+.header-btm {
+    background-color: blue;
+    height: 500px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-btm-container {
+    width: 50%;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+/* Main */
+.white-section {
+    background-color: #fff;
+}
+
+.gray-section {
+    background-color: gray;
+}
+
+.large-column {
+    flex-basis: 65%;
+    margin: 50px auto;
+    background-color: skyblue;
+    border: 1px dashed black;
+}
+
+.small-column {
+    flex-basis: 35%;
+    margin: 50px auto;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.container-xl {
+    background-color: green;
+    min-height: 800px;
+    max-width: 1200px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+/* Footer */
+footer {
+    background-color: #23272a;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+.main-footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    height: 600px;
+    border-bottom: 1px solid white;
+}
+
+.footer-box-small {
+    flex-basis: 25%;
+    margin: 20px auto 50px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.footer-box-large {
+    flex-basis: 75%;
+    margin: 20px auto 50px;
+    background-color: skyblue;
+    border: 1px dashed black;
+    display: flex;
+}
+
+.box-large-column {
+    flex-basis: 25%;
+    border: 1px dashed white;
+}
+
+/* Last footer */
+.last-footer {
+    /* border-top: 2px solid white; */
+}
+
+.last-footer-container {
+    max-width: 1200px;
+    height: 100px;
+    margin: 50px auto 0;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-cell {
+    height: 40px;
+    width: 80px;
+    background-color: gainsboro;
+    border: 1px dashed black;
+}
