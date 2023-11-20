@@ -10,9 +10,28 @@ body {
 }
 
 /* Utilitis */
+.p10 {
+    padding: 10px;
+}
+
+.p40 {
+    padding: 40px;
+}
+
 .pd50 {
     padding: 50px;
 }
+
+.btn-wh {
+    background-color: #fff;
+    color: #23272a;
+}
+
+.btn-bl {
+    background-color: #23272a;
+    color: #fff;
+}
+
 
 /* Generals */
 .container {
@@ -31,16 +50,17 @@ a {
 }
 
 .button {
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 20px;
 }
 
-.btn-wh {
-    background-color: #fff;
+h1 {
+    padding-top: 50px;
+    font-size: 3.5rem;
 }
 
-.btn-bl {
-    background-color: #23272a;
+p {
+    font-size: 1.4rem;
 }
 
 /* Header */
@@ -97,15 +117,20 @@ header {
 
 .header-btm {
     height: 500px;
-    padding: 60px 0;
+    padding: 90px 0;
     display: flex;
     justify-content: center;
 }
 
 .header-btm-container {
     width: 50%;
-    background-color: pink;
-    border: 1px dashed black;
+    text-align: center;
+    color: #fff;
+}
+
+.header-btm-container a {
+    margin: 10px;
+    font-size: 1.3rem;
 }
 
 /* Main */
